@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build:
+      context: .
+    container_name: rrweb-app
+    ports:
+      - "8080:3000"
